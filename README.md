@@ -1,2 +1,3 @@
 # 100-JavaPrograme
-one hundred classic java programe.
+参考网上的100个经典JAVA程序，自己重新将这100个JAVA程序手动敲入实现了一边。
+本次实验中巩固了JAVA基础知识，了解了很多变量的规范命令。
