@@ -1,5 +1,11 @@
+/*
+ *Create by Lichengyun
+ *2016-8-31 下午01:03:45
+ *Description: 简单的Java程序,只显示一个信息。
+ */
+
 public class HelloWorld {
-  public static void main(String[] args) {
-    System.out.println("Hello Java World !");
-  }
+    public static void main(String[] args) {
+        System.out.println("Hello Java World!");
+    }
  }
