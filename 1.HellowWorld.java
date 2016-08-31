@@ -1,6 +1,6 @@
 /*
  *Author: Create by Li chengyun
- *Description: 简单的Java程序,只显示一个信息。
+ *Description: 简单的Java程序,只显示一个信息
  *Date: 2016-8-31 下午01:03:45 
  */
 
