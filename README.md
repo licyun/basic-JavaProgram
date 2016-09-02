@@ -5,8 +5,12 @@
 本次实验中巩固了JAVA基础知识，了解了很多变量的规范命令，如何简单高效的实现一个函数的功能。
 
 修正了部分错误代码:
-1.例3中的闰年的判断 
 ```java
-  (iPara % 4 == 0 && iPara % 100 != 0 || iPara % 400 == 0)
-  原代码为(iPara%100==0&&iPara%4==0;)
+1.例3中的闰年的判断 
+  iPara % 4 == 0 && iPara % 100 != 0 || iPara % 400 == 0
+  原代码为iPara%100==0&&iPara%4==0;
+2.例5中hash表中数据的修改
+	rightList.remove(role);
+	rightList.put(role, code);
+  源代码为：this.insert(accRole,rightCode);
 ```
