@@ -1,6 +1,6 @@
 /*
  *Author: Create by 李呈云
- *Description: 
+ *Description: 演示一个矢量（Vector）的基本操作
  *Date: 2016-9-2 上午8:21:43  
  */
 
