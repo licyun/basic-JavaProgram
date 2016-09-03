@@ -13,5 +13,7 @@
 	rightList.put(role, code);
   原代码为：this.insert(accRole,rightCode);
 3.例13中InputStreamReader获取网页乱码
-	InputStreamReader isr = new InputStreamReader(url.openStream(),"utf-8");//加入utf-8修复乱码问题
+	InputStreamReader isr = new InputStreamReader(url.openStream(),"utf-8");
+	BufferedReader br = new BufferedReader(isr);
+  原代码为：InputStreamReader isr = new InputStreamReader(url.openStream(),"utf-8");
 ```
