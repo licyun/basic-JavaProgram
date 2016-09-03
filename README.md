@@ -6,10 +6,12 @@
 修正了部分错误代码:
 ```java
 1.例3中的闰年的判断 
-  iPara % 4 == 0 && iPara % 100 != 0 || iPara % 400 == 0
-  原代码为iPara%100==0&&iPara%4==0;
+ 	iPara % 4 == 0 && iPara % 100 != 0 || iPara % 400 == 0
+  原代码为：iPara%100==0&&iPara%4==0;
 2.例5中hash表中数据的修改
 	rightList.remove(role);
 	rightList.put(role, code);
-  源代码为：this.insert(accRole,rightCode);
+  原代码为：this.insert(accRole,rightCode);
+3.例13中InputStreamReader获取网页乱码
+	InputStreamReader isr = new InputStreamReader(url.openStream(),"utf-8");//加入utf-8修复乱码问题
 ```
